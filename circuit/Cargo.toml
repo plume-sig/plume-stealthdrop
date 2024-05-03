@@ -1,0 +1,9 @@
+[package]
+name = "circuit"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+halo2-base = { git = "https://github.com/shreyas-londhe/halo2-lib.git", branch = "feat/secp256k1-hash2curve-poseidon", default-features = false, features = ["halo2-axiom", "test-utils"] }
+halo2-ecc = { git = "https://github.com/shreyas-londhe/halo2-lib.git", branch = "feat/secp256k1-hash2curve-poseidon", default-features = false, features = ["halo2-axiom"] }
+plume-halo2 = { git = "https://github.com/shreyas-londhe/zk-nullifier-sig.git", branch = "feat/plume-halo2" }
