@@ -1,4 +1,5 @@
 mod utils;
+mod wasm;
 
 use halo2_base::{
     gates::{ GateChip, GateInstructions },
